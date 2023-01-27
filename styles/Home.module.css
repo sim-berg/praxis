@@ -1,0 +1,82 @@
+
+
+
+.first {
+  height: 100vh;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left:50%;
+ z-index: 2;
+ transform: translate(-50%, -50%);
+}
+
+.cta{
+
+  border-radius: 100vh;
+  border: 2px solid;
+  padding: 1rem 1rem;
+  background-color: black;
+  color: aliceblue;
+
+}
+
+.water {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+}
+.eingang p {
+
+  padding: 2rem;
+}
+.eingang  h3{
+
+  padding: 2rem;
+}
+
+.eingang {
+  
+  
+  z-index: 2;
+  position: relative;
+
+ 
+}
+.hauptseite {
+  z-index: 2;
+  position: relative;
+ 
+
+}
+.hauptseite2 {
+  z-index: 2;
+  position: relative;
+ 
+  
+
+}
+.hauptseite p {
+  padding: 2rem;
+}
+.hauptseite h2 {
+  padding: 2rem;
+}
+.hauptseite li {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  list-style: inside;
+}
+.hauptseite2 p {
+  padding: 2rem;
+}
+.hauptseite2 h3 {
+  padding: 1rem 2rem;
+}
+.hauptseite2 li {
+  padding: 1rem 2rem;
+  list-style: inside;
+}
