@@ -1,9 +1,12 @@
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import { Physics, usePlane, useSphere } from "@react-three/cannon"
 import { EffectComposer, SSAO, Bloom } from "@react-three/postprocessing"
+import useWindowDimensions from "./useWindowDimensions"
 import Logo from './Logo'
 
 export default function Water() {
+  const { height, width } = useWindowDimensions();
+  if (width > 800){ 
   return (
     <Canvas shadows gl={{ stencil: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
       <fog attach="fog" args={["red", 25, 35]} />
@@ -20,6 +23,7 @@ export default function Water() {
         shadow-camera-top={10}
         shadow-camera-bottom={-10}
       />
+      
       <Physics gravity={[0, -50, 0]} defaultContactMaterial={{ restitution: 0.5 }}>
         <group position={[0, 0, -10]}>
           <Mouse />
@@ -34,7 +38,28 @@ export default function Water() {
       <Logo/>
     </Canvas>
   )
-}
+} if (width < 800) { 
+  return(
+  <Canvas shadows gl={{ stencil: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
+      <fog attach="fog" args={["red", 25, 35]} />
+      <color attach="background" args={["#fadeff"]} />
+      <ambientLight intensity={1.5} />
+      <directionalLight position={[-10, -10, -5]} intensity={0.5} />
+      <directionalLight
+        castShadow
+        intensity={4}
+        position={[50, 50, 25]}
+        shadow-mapSize={[256, 256]}
+        shadow-camera-left={-10}
+        shadow-camera-right={10}
+        shadow-camera-top={10}
+        shadow-camera-bottom={-10}
+      />
+      
+      <Logo/>
+    </Canvas>
+  )
+}}
 
 function InstancedSpheres({ count = 200 }) {
   const { viewport } = useThree()
