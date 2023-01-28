@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 function vita() {
   return (
     <div className='vitadiv'><h1>Vita Alexandra Matheis</h1>
 
-    Bild
+    <div className='fotovitacon'><img className='fotovita' src="./fotovita.jpeg" alt="" srcSet="" /></div>
     
     <ul className='vitali'>
     <li>Dipl. Ing. Chemie (FH), Pharmazeutische Chemie</li>
@@ -20,13 +21,13 @@ function vita() {
     
     
     
-    <p>
+    <p className='padding'>
     Mit meiner Gabe helfe ich seit 1999 Mensch und Tier auch über große Entfernungen. Ich arbeite nur in der Verbindung mit deinem Höheren Selbst in Achtung deines freien Willens.<br></br><br></br> 
     Das göttliche Licht kann weder beeinflusst noch manipuliert werden und es steht Dir zu jeder Zeit frei, die vermittelte Energie anzunehmen oder nicht. <br></br><br></br> <br></br><br></br> 
     </p>
     
     
-   <h3> einfach Sein</h3>
+   <h3 className='padding'> einfach Sein</h3>
     </div>
   )
 }

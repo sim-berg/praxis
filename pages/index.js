@@ -4,10 +4,16 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Swiperjs from '../components/Swiperjs'
 import  Water  from '../components/Water'
-
-const inter = Inter({ subsets: ['latin'] })
+import Breath from '../components/Breath'
 
 export default function Home() {
+
+
+function createMarkup() {
+
+  
+  return {__html: 'First &middot; Second'};
+}
   return (
     <>
       <Head>
@@ -20,7 +26,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.water}><Water /></div>
         <section className={styles.first}>
-          <div className={styles.middle}><h1>Räum den Schotter aus dem Weg!</h1></div>
+        <div className={styles.breath} ><Breath/></div>
+
           
         </section>
         <section className={styles.second}>
@@ -89,4 +96,5 @@ export default function Home() {
       </main>
     </>
   )
+  
 }

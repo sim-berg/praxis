@@ -41,7 +41,7 @@ export default function Water() {
 } if (width < 800) { 
   return(
   <Canvas shadows gl={{ stencil: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
-      <fog attach="fog" args={["red", 25, 35]} />
+      
       <color attach="background" args={["#fadeff"]} />
       <ambientLight intensity={1.5} />
       <directionalLight position={[-10, -10, -5]} intensity={0.5} />

@@ -10,12 +10,49 @@ html {
 h1{
   padding: 2rem;
 }
-.vitali{
 
-  padding: 2rem 1rem;
-  list-style: inside;
+@font-face {
+  font-family: Dancing;
+  src: url(../public/DancingScript-SemiBold.ttf);
 }
 
+h3{
+  font-family: Dancing;
+  font-size: xx-large;
+
+}
+
+#str {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 20px auto;
+  color: #fff;
+  font-weight: bold;
+
+}
+.padding {
+
+  padding: 2rem;
+}
+.vitali{
+
+  padding: 2rem ;
+  list-style: inside;
+}
+.vitali p {
+  padding: 2rem;
+}
+.fotovita{
+
+  width: 300px;
+  padding-left: 10%;
+
+ 
+}
 .swiper-container {
   width: 100%;
   height: 100%;

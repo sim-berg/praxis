@@ -23,7 +23,7 @@ export default function Swiperjs() {
       centeredSlidesBounds={true}
     >
       <SwiperSlide>
-        <img src="./flower.jfif" alt="" srcset="" />
+        <img src="./flower.jfif" alt="" srcSet="" />
         <div className="text1">
           <h2>Zwischenmenschliche Beziehungen:</h2>
           <p>
@@ -44,7 +44,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./stone.jpeg" alt="" srcset="" />
+        <img src="./stone.jpeg" alt="" srcSet="" />
         <div className="text2">
           <h2>
             Rückenschmerzen - Sei authentisch und bewahre deine Aufrichtigkeit
@@ -73,7 +73,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./river.jfif" alt="" srcset="" />
+        <img src="./river.jfif" alt="" srcSet="" />
         <div className="text3">
           <h2>Körper</h2>
           <p>
@@ -106,7 +106,7 @@ export default function Swiperjs() {
       
 
       <SwiperSlide>
-        <img src="./kid.jfif" alt="" srcset="" />
+        <img src="./kid.jfif" alt="" srcSet="" />
         <div className="text4">
           <h2>Kinder</h2>
           <br></br>
@@ -137,7 +137,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./butterfly.jfif" alt="" srcset="" />
+        <img src="./butterfly.jfif" alt="" srcSet="" />
         <div className="text5">
           <h2>Hier gehts zur Vita</h2>
          <Link href='/vita'><button className={styles.cta}>Zur Vita</button></Link> 
