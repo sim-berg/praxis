@@ -10,7 +10,7 @@ export default function Water() {
   return (
     <Canvas shadows gl={{ stencil: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
       <fog attach="fog" args={["red", 25, 35]} />
-      <color attach="background" args={["#fadeff"]} />
+      <color attach="background" args={["#ffeec9"]} />
       <ambientLight intensity={1.5} />
       <directionalLight position={[-10, -10, -5]} intensity={0.5} />
       <directionalLight
@@ -42,7 +42,7 @@ export default function Water() {
   return(
   <Canvas shadows gl={{ stencil: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
       
-      <color attach="background" args={["#fadeff"]} />
+      <color attach="background" args={["#ffeec9"]} />
       <ambientLight intensity={1.5} />
       <directionalLight position={[-10, -10, -5]} intensity={0.5} />
       <directionalLight
@@ -63,7 +63,7 @@ export default function Water() {
 
 function InstancedSpheres({ count = 200 }) {
   const { viewport } = useThree()
-  const [ref] = useSphere((index) => ({ mass: 100, position: [4 - Math.random() * 8, -10, 0, 0], args: [1.2] }))
+  const [ref] = useSphere((index) => ({ mass: 100, position: [4 - Math.random() * 8, 30, 0, 0], args: [1.2] }))
   return (
     <instancedMesh ref={ref} castShadow receiveShadow args={[null, null, count]}>
       <sphereBufferGeometry args={[1.2, 32, 32]} />

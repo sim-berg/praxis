@@ -61,3 +61,12 @@
   
   }  
 
+  .cta{
+
+    border-radius: 100vh;
+    border: 2px solid;
+    padding: 1rem 1rem;
+    background-color: black;
+    color: aliceblue;
+  
+  }

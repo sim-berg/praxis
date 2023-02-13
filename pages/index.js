@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Swiperjs from '../components/Swiperjs'
 import  Water  from '../components/Water'
 import Breath from '../components/Breath'
+import Link from 'next/link'
+
 
 export default function Home() {
 
@@ -74,7 +76,7 @@ function createMarkup() {
 
               Dann vereinbare ein unverbindliches Erstgespräch, damit wir uns kennenlernen können. <br></br><br></br>
 
-             <button className={styles.cta}>Klick hier</button> 
+             <Link href="/connect"><button className={styles.cta}>Klick hier</button> </Link>
 
              
 
