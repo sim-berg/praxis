@@ -67,18 +67,18 @@ c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
         </button>
       </a>
       <h3>oder schreib mir ganz einfach eine E-mail</h3>
-      <div data-aos="fade-in" class="contact">
+      <div data-aos="fade-in" className="contact">
         <form action="https://formsubmit.co/post@bumperlgsund.de" method="POST">
           <input
             placeholder="Dein Name"
-            class="name"
+            className="name"
             type="text"
             name="name"
             required
           />
           <input
             placeholder="Deine Email Adresse"
-            class="email"
+            className="email"
             type="email"
             name="email"
             required
@@ -86,7 +86,7 @@ c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
           <textarea
             aria-placeholder="Schreib mir einfach"
             rows="8"
-            class="message"
+            className="message"
             type="text"
             name="message"
             placeholder="Schreiben Sie mir doch einfach :)"
@@ -103,7 +103,7 @@ c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
             name="_subject"
             value="Jemand hat dir über -Bumpergesung geschrieben"
           />
-          <button class={styles.cobu} type="submit">
+          <button className={styles.cobu} type="submit">
             Abschicken
           </button>
         </form>

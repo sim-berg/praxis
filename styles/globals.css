@@ -160,6 +160,24 @@ gap: .25em;
 
   margin-top: 1rem;
 }
+.footer {
+  font-size: small;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background-color: #222526;
+  padding-left: 2rem;
+  
+  color: white;
+  z-index: 2;
+  position: relative;
+  
+  width: 100vw;
+  
+}
 
 @media  screen and (max-width:750px) {
 
