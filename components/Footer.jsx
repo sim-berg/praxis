@@ -7,9 +7,10 @@ const Footer = () => {
     return (
 
         <div className="footer connectfooter">
-            <Link href="/impressum">Impressum</Link>
-            <Link href="/datenschutz">Datenschutzerklärung</Link>
-            <div>  © 2022</div>
+            <div> </div>
+            <Link className='Link' href="/impressum">Impressum</Link>
+            <Link className='Link' href="/datenschutz">Datenschutzerklärung</Link>
+            <div>         © 2023</div>
 
 
 

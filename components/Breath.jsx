@@ -20,16 +20,16 @@ const [loading, setLoading] = useState(1);
   
 
     if(loading== 1){
-       return <div><h1>Einmal tief einatmen</h1></div>
+       return <div className='breathtext'><h1>Einmal tief einatmen</h1></div>
     }
     if(loading==2){
-      return <div><h1>Haaaalten ....</h1></div>
+      return <div className='breathtext'><h1>haaaalten ....</h1></div>
    }
    if(loading==3){
-    return <div><h1>und Ausatmen</h1></div>
+    return <div className='breathtext'><h1>und ausatmen</h1></div>
  }
     return (
-      <div><h1>Willkommen auf meiner Praxis-Website</h1></div>
+      <div className='breathtext'><h1>Willkommen auf meiner Praxis-Website</h1></div>
     );
 };
 

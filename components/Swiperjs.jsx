@@ -36,11 +36,11 @@ export default function Swiperjs() {
             Krankmachende Emotionen können dadurch abfließen. <br></br>{" "}
             <br></br>
           </p>
-          <h3>
+          <h4>
             Durch Heilarbeit verändern wir uns von innen heraus. Die eigene
             Schwingung wird erhöht und du ziehst bessere Gegebenheiten in dein
             Leben. Liebe ist die Antwort
-          </h3>
+          </h4>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -69,8 +69,8 @@ export default function Swiperjs() {
             <br></br>
             Der Rücken ist jetzt total entspannt.<br></br>
           </p>
-          <h3>Sei authentisch und bewahre deine Aufrichtigkeit
-            und Haltung</h3>
+          <h4>Sei authentisch und bewahre deine Aufrichtigkeit
+            und Haltung</h4>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -101,7 +101,7 @@ export default function Swiperjs() {
             überprüfen und anschließend deinem Körper zuführen, was er zur
             Heilung benötigt.<br></br><br></br>
           </p>
-          <h3>Mein Körper folgt mir bei jedem Schritt, den ich gehe. </h3>
+          <h4>Mein Körper folgt mir bei jedem Schritt, den ich gehe. </h4>
         </div>
       </SwiperSlide>
       
@@ -126,7 +126,7 @@ export default function Swiperjs() {
             kann.<br></br>
             <br></br>
           </p>
-          <h3>Ein Kind kann nie genug Liebe bekommen.</h3>
+          <h4>Ein Kind kann nie genug Liebe bekommen.</h4>
           <br></br>
           <br></br>
           <p>

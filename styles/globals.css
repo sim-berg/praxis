@@ -1,6 +1,10 @@
 *{
   margin: 0;
   padding: 0;
+
+}
+*:not(h1):not(h2):not(h3):not(h4):not(h5){
+
   font-weight: 500  !important;
 }
 html {
@@ -19,6 +23,10 @@ a {
 h1{
   padding: 2rem;
 }
+h2{
+  font-size:medium;
+}
+
 
 @font-face {
   font-family: Dancing;
@@ -30,7 +38,20 @@ h3{
   font-size: xx-large;
 
 }
+h4 {
+  font-family: Dancing;
+  font-size: large;
+}
 
+h5{
+  padding: 2rem;
+  font-size: x-large;
+}
+.breathtext{
+
+  text-align: center;
+  margin: auto;
+}
 
 .padding {
 
@@ -164,13 +185,13 @@ gap: .25em;
 .footer {
   font-size: small;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 2rem 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem 0rem;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
   background-color: #222526;
-  padding-left: 2rem;
+  text-decoration: none;
   
   color: white;
   z-index: 2;
@@ -178,6 +199,12 @@ gap: .25em;
   
   width: 100vw;
   
+}
+
+.Link
+{
+  color: white;
+  text-decoration: none;
 }
 
 @media  screen and (max-width:750px) {

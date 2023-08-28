@@ -47,9 +47,11 @@ function createMarkup() {
         <section className={styles.third}>
           <div className={ styles.hauptseite }>
 
-            <h2>Mein Angebot:<br></br>
+            <h5>Mein Angebot:<br></br>
             Heilgespräche mit Energieübertragung zur Aktivierung der Selbstheilungskräfte
-            </h2><br></br><br></br><br></br>
+            </h5><br></br>
+            
+            <br></br><br></br>
             <p>Im Gespräch erhältst Du ein klares Bild von Dir und deinem Problem, deiner Herausforderung, deinem Konflikt oder Deiner Krankheit und der damit verbundenen Chance zum Wachstum. <br></br><br></br>
               Um deinen Weg zu stärken und die Heilung einzuleiten empfängst du aus der geistigen Welt Heilenergie.<br></br><br></br>
               Alter Ballast, der dich daran hindern will vorwärts zu gehen wird dabei aufgelöst, so dass dein Weg frei wird. <br></br><br></br>

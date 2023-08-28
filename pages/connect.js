@@ -4,7 +4,7 @@ import styles from "../styles/Connect.module.css";
 function connect() {
   return (
     <div className={styles.middle}>
-      <h3>Lass uns connecten</h3>
+      <h3>So kannst du Kontakt mir mir aufnehmen</h3>
       <a href="https://wa.me/4917682031955?text=Hi,%20lass%20uns%20reden.">
         <button className={styles.wa}>
           <svg xmlns="" width="24" height="24" viewBox="0 0 24 24">
