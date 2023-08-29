@@ -25,7 +25,7 @@ export default function Swiperjs() {
       <SwiperSlide>
         <img src="./flower.jfif" alt="" srcSet="" />
         <div className="text1">
-          <h2>Zwischenmenschliche Beziehungen:</h2><br></br>
+          
           <p>
             Du hast ein Problem im zwischenmenschlichen Bereich? Der Umgang mit
             anderen Menschen bildet eine Herausforderung für dich. <br></br>
@@ -46,9 +46,7 @@ export default function Swiperjs() {
       <SwiperSlide>
         <img src="./stone.jpeg" alt="" srcSet="" />
         <div className="text2">
-          <h2>
-            Rückenschmerzen 
-          </h2><br></br>
+          
           <p>
             Jeder Wirbel Deiner Wirbelsäule steht in Bezug zu einem Organ und
             Seelenthema deiner Person.<br></br>
@@ -76,7 +74,7 @@ export default function Swiperjs() {
       <SwiperSlide>
         <img src="./river.jfif" alt="" srcSet="" />
         <div className="text3">
-          <h2>Körper</h2><br></br>
+          
           <p>
             Unsere Verantwortung liegt darin, bestmöglich für unserer Zellen im
             Körper zu sorgen und damit die körperliche Voraussetzung für Heilung
@@ -109,7 +107,7 @@ export default function Swiperjs() {
       <SwiperSlide>
         <img src="./kid.jfif" alt="" srcSet="" />
         <div className="text4">
-          <h2>Kinder</h2>
+          
           <br></br>
           <p>
             Kinder können in diesen Zeiten vielen verschiedenen Belastungen
