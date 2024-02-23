@@ -55,18 +55,23 @@ export default function Swiperjs() {
             Bei Rückenschmerzen biete ich Dir eine energetische Behandlung der
             Wirbelsäule an. <br></br>
             <br></br>
-            Die Wirbelsäule kann oft innerhalb weniger Minuten am Telefon wieder
-            ausgerichtet werden, so dass Du wieder aufrecht im Leben stehst.
+            Die Wirbelsäule kann oft innerhalb weniger Minuten wieder
+            ausgerichtet werden, so dass Du wieder aufrecht im Leben stehst, wenn wir uns kennen auch telefonisch.
             <br></br>
             <br></br>
-            Kundenfeedback innerhalb weniger Minuten, Stunden nach der
-            Behandlung:<br></br>
-            Das Kopfweh ist verschwunden, der Druck auf der Brust ist weg.{" "}
-            <br></br>
-            Jetzt hat es grad nochmal gekracht, der Wirbel ist wieder drin.
-            <br></br>
-            Der Rücken ist jetzt total entspannt.<br></br>
+            <div className="bold">Kundenfeedback innerhalb weniger Minuten, Stunden nach der
+            Behandlung:</div><br></br> <ul className="kundenfeedback"> <li>Das Kopfweh ist verschwunden, der Druck auf der Brust ist weg.</li>
+            <li>Jetzt hat es grad nochmal gekracht, der Wirbel ist wieder drin.</li>
+            <li>Der Rücken ist jetzt total entspannt.</li>
+            <li>Ich weiß jetzt nicht, wie du das gemacht hast aber die chronische
+            Erkältung ist weg.</li>
+            <li>Mandeln und Polypen müssen nicht operiert werden.</li>
+            
+            
+          
+            </ul>
           </p>
+          <br></br><br></br>
           <h4>Sei authentisch und bewahre deine Aufrichtigkeit
             und Haltung</h4>
         </div>
@@ -103,38 +108,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       
-
-      <SwiperSlide>
-        <img src="./kid.jfif" alt="" srcSet="" />
-        <div className="text4">
-          
-          <br></br>
-          <p>
-            Kinder können in diesen Zeiten vielen verschiedenen Belastungen
-            ausgesetzt sein, die Ihre körperliche und seelische Gesundheit
-            gefährden und die sie Symptome entwickeln lassen, die darauf
-            hinweisen. <br></br>- Folgen von Impfungen, wie Hautausschläge,
-            Erkrankungen der Atemwege, Allergien, Entwickeln von ADHS oder
-            autistische Züge<br></br>- Ahnenthemen, die zu Angst, Wutausbrüchen
-            oder seltsamen Verhaltensweisen führen<br></br>- Eingeschlossene
-            Emotionen, daher unkontrollierte Ausbrüche<br></br>- Ständig
-            wiederkehrende Infekte<br></br>
-            Mit dem Beginn der Konzentration auf die Lösung statt auf das
-            Problem schaffen wir ein Heilfeld für Dein Kind, in dem es gesunden
-            kann.<br></br>
-            <br></br>
-          </p>
-          <h4>Ein Kind kann nie genug Liebe bekommen.</h4>
-          <br></br>
-          <br></br>
-          <p>
-            Kundenfeedback:<br></br>
-            Ich weiß jetzt nicht, wie du das gemacht hast aber die chronische
-            Erkältung ist weg. <br></br>
-            Mandeln und Polypen müssen nicht operiert werden.
-          </p>
-        </div>
-      </SwiperSlide>
+   
       <SwiperSlide>
         <img src="./butterfly.jfif" alt="" srcSet="" />
         <div className="text5">

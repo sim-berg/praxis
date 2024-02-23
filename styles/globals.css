@@ -47,6 +47,19 @@ h5{
   padding: 2rem;
   font-size: x-large;
 }
+
+.bold{
+  font-weight: 900 !important;
+  
+}
+
+.kundenfeedback{
+  list-style: inside;
+
+
+}
+
+
 .breathtext{
 
   text-align: center;

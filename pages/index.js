@@ -1,4 +1,4 @@
-
+"use client"
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -53,7 +53,8 @@ function createMarkup() {
             
             <br></br><br></br>
             <p>Im Gespräch erhältst Du ein klares Bild von Dir und deinem Problem, deiner Herausforderung, deinem Konflikt oder Deiner Krankheit und der damit verbundenen Chance zum Wachstum. <br></br><br></br>
-              Um deinen Weg zu stärken und die Heilung einzuleiten empfängst du aus der geistigen Welt Heilenergie.<br></br><br></br>
+              Um deinen Weg zu stärken und die Heilung einzuleiten empfängst du aus der geistigen Welt, die für dich passende Heilenergie.<br></br><br></br>
+              Für einen Zeitraum von 1-4 Wochen kann die Neuausrichtung z.B. mit Globulis unterstützt werden.<br></br><br></br>
               Alter Ballast, der dich daran hindern will vorwärts zu gehen wird dabei aufgelöst, so dass dein Weg frei wird. <br></br><br></br>
               Da über das Quantenfeld alles miteinander verbunden ist, funktioniert Energieübertragung auch auf die Ferne.<br></br><br></br><br></br><br></br></p>
               </div> </section> <section className={styles.fourth}><div className={ styles.hauptseite2 }>
