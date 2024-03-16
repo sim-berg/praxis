@@ -130,12 +130,7 @@ export default function Swiperjs() {
           <h4>Ein Kind kann nie genug Liebe bekommen.</h4>
           <br></br>
           <br></br>
-          <p>
-            Kundenfeedback:<br></br>
-            Ich weiß jetzt nicht, wie du das gemacht hast aber die chronische
-            Erkältung ist weg. <br></br>
-            Mandeln und Polypen müssen nicht operiert werden.
-          </p>
+         
         </div>
       </SwiperSlide>
    
