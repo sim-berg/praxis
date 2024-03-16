@@ -46,6 +46,8 @@ export default function Home() {
             <h5>Mein Angebot:<br></br>
             Heilgespräche mit Energieübertragung zur Aktivierung der Selbstheilungskräfte
             </h5><br></br>
+            <Link href="/connect"><button className={styles.cta}>Klick hier</button> </Link>
+
             
             <br></br><br></br>
             <p>Im Gespräch erhältst Du ein klares Bild von Dir und deinem Problem, deiner Herausforderung, deinem Konflikt oder Deiner Krankheit und der damit verbundenen Chance zum Wachstum. <br></br><br></br>
