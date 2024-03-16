@@ -11,11 +11,7 @@ import Link from 'next/link'
 export default function Home() {
 
 
-function createMarkup() {
 
-  
-  return {__html: 'First &middot; Second'};
-}
   return (
     <>
      

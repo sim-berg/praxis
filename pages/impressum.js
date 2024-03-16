@@ -5,13 +5,13 @@ export default function impressum() {
     <>
 
  
-      <p className='padding'>  Herausgeber, der Website und verantwortlich für den Inhalt: <br/><br/>
+      <p className='padding padding-sides'>  Herausgeber, der Website und verantwortlich für den Inhalt: <br/><br/>
 
 Alexandra Matheis<br/>
 Fahls 101<br/>
 87435 Durach<br/>
-Tel. <br/>
-e-mail:<br/>
+Tel.: 0831 2055552 <br/>
+e-mail:a.matheis@web.de<br/>
 <br/><br/></p>
 
 <h2>Haftungsausschlußerklärung:</h2><br/><br/>

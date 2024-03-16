@@ -107,7 +107,37 @@ export default function Swiperjs() {
           <h4>Mein Körper folgt mir bei jedem Schritt, den ich gehe. </h4>
         </div>
       </SwiperSlide>
-      
+      <SwiperSlide>
+        <img src="./kid.jfif" alt="" srcSet="" />
+        <div className="text4">
+
+          <br></br>
+          <p>
+            Kinder können in diesen Zeiten vielen verschiedenen Belastungen
+            ausgesetzt sein, die Ihre körperliche und seelische Gesundheit
+            gefährden und die sie Symptome entwickeln lassen, die darauf
+            hinweisen. <br></br>- Folgen von Impfungen, wie Hautausschläge,
+            Erkrankungen der Atemwege, Allergien, Entwickeln von ADHS oder
+            autistische Züge<br></br>- Ahnenthemen, die zu Angst, Wutausbrüchen
+            oder seltsamen Verhaltensweisen führen<br></br>- Eingeschlossene
+            Emotionen, daher unkontrollierte Ausbrüche<br></br>- Ständig
+            wiederkehrende Infekte<br></br>
+            Mit dem Beginn der Konzentration auf die Lösung statt auf das
+            Problem schaffen wir ein Heilfeld für Dein Kind, in dem es gesunden
+            kann.<br></br>
+            <br></br>
+          </p>
+          <h4>Ein Kind kann nie genug Liebe bekommen.</h4>
+          <br></br>
+          <br></br>
+          <p>
+            Kundenfeedback:<br></br>
+            Ich weiß jetzt nicht, wie du das gemacht hast aber die chronische
+            Erkältung ist weg. <br></br>
+            Mandeln und Polypen müssen nicht operiert werden.
+          </p>
+        </div>
+      </SwiperSlide>
    
       <SwiperSlide>
         <img src="./butterfly.jfif" alt="" srcSet="" />

@@ -70,6 +70,13 @@ h5{
 
   padding: 2rem;
 }
+
+.padding-sides {
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
 .vitali{
 
   padding: 2rem ;
