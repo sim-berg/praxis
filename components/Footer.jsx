@@ -10,7 +10,7 @@ const Footer = () => {
             <div> </div>
             <Link className='Link' href="/impressum">Impressum</Link>
             <Link className='Link' href="/datenschutz">Datenschutzerklärung</Link>
-            <div>         © 2023</div>
+            <div>         © 2024</div>
 
 
 

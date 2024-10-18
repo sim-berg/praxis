@@ -1,29 +1,29 @@
-"use client"
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+
+//import Image from 'next/image'
+//import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Swiperjs from '../components/Swiperjs'
 import  Water  from '../components/Water'
 import Breath from '../components/Breath'
 import Link from 'next/link'
-
+//import { useState } from 'react'
 
 export default function Home() {
 
-
+ //const [modal1Open,setModal1Open] = useState(false);
 
   return (
     <>
      
       
       <main className={styles.main}>
-        <div className={styles.water}><Water /></div>
-        <section className={styles.first}>
-        <div className={styles.breath} ><Breath/></div>
+           <div className={styles.water}><Water /></div>
+          <section className={styles.first}>
+          <div className={styles.breath} ><Breath/></div>
 
-          
-        </section>
-        <section className={styles.second}>
+            
+          </section> 
+        <section id='start' className={styles.second}>
         <div className={styles.eingang}>
           
           <p>Krisen sind Wegweiser in Deinem Leben, die verstanden werden wollen und dir den Weg weisen.<br></br><br></br>
@@ -46,7 +46,7 @@ export default function Home() {
             <h5>Mein Angebot:<br></br>
             Heilgespräche mit Energieübertragung zur Aktivierung der Selbstheilungskräfte
             </h5><br></br>
-            <Link href="/connect"><button className={styles.cta}>Klick hier</button> </Link>
+            <div className={styles.cta2position}><Link href="/connect"><button className={styles.cta}>Klick hier</button> </Link></div>
 
             
             <br></br><br></br>
@@ -89,7 +89,27 @@ export default function Home() {
 
           
           <section className={styles.fifth}>
-          <Swiperjs/>
+          <Swiperjs/> 
+
+              {/* <div className="modalcontainer">  <div className={modal1Open ? "modal1  extended":"modal1"}>    <h4>
+                Durch Heilarbeit verändern wir uns von innen heraus. Die eigene
+                Schwingung wird erhöht und du ziehst bessere Gegebenheiten in dein
+                Leben. Liebe ist die Antwort
+              </h4>
+              <p className= {modal1Open ? "":"nodisplay"}>       Du hast ein Problem im zwischenmenschlichen Bereich? Der Umgang mit
+                anderen Menschen bildet eine Herausforderung für dich. <br></br>
+                Oft ist ein abgespeichertes Traumata oder Ahnenthema die Ursache,
+                warum uns manche Menschen oder Situationen scheinbar belasten.{" "}
+                <br></br>
+                Wir beleuchten das gemeinsame Thema und lösen es auf. <br></br>
+                Krankmachende Emotionen können dadurch abfließen. <br></br>{" "}
+                <br></br></p>
+              
+              
+              
+              <button className="btn-modal" onClick={() =>setModal1Open(!modal1Open)}>Mehr Dazu</button></div>
+              
+              </div> */}
           </section>
       </main>
     </>

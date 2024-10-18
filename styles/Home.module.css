@@ -62,19 +62,21 @@
 
 .eingang {
   
-  
+  background-color: #ffeec9;
   z-index: 2;
   position: relative;
 
  
 }
 .hauptseite {
+  background-color: #ffeec9;
   z-index: 2;
   position: relative;
  
 
 }
 .hauptseite2 {
+  background-color: #ffeec9;
   z-index: 2;
   position: relative;
  
@@ -101,4 +103,8 @@
 .hauptseite2 li {
   padding: 1rem 2rem;
   list-style: inside;
+}
+.cta2position {
+
+  padding: 2rem;
 }
