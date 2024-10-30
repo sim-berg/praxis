@@ -34,9 +34,9 @@ export default function Home() {
 
               Mein Name ist Alexandra und ich zeige Dir, wie Du  Deine blockierten Selbstheilungskräfte befreien kannst, damit Du in Gesundheit, Frieden und Fülle leben kannst. <br></br><br></br><br></br>
               </p>
-
+            <div className='abgehoben'>
               <h3>Geistige Heilarbeit kennt keine zeitlichen und räumlichen Grenzen</h3>
-              
+            </div>
             
         </div>
         </section>
@@ -46,8 +46,7 @@ export default function Home() {
             <h5>Mein Angebot:<br></br>
             Heilgespräche mit Energieübertragung zur Aktivierung der Selbstheilungskräfte
             </h5><br></br>
-            <div className={styles.cta2position}><Link href="/connect"><button className={styles.cta}>Klick hier</button> </Link></div>
-
+           
             
             <br></br><br></br>
             <p>Im Gespräch erhältst Du ein klares Bild von Dir und deinem Problem, deiner Herausforderung, deinem Konflikt oder Deiner Krankheit und der damit verbundenen Chance zum Wachstum. <br></br><br></br>
@@ -58,27 +57,28 @@ export default function Home() {
               </div> </section> <section className={styles.fourth}><div className={ styles.hauptseite2 }>
               <p>Mittels meiner Medialität kann ich dir helfen bei:</p>
               <ul>
-                <li>Allen Krankheiten</li>
-                <li>Energetische Wirbelsäulenaufrichtung, alle Reflexzonen zu den Organen werden stimuliert</li>
-                <li>Ängsten und Zweifeln</li>
+                <li>akuten und chronischen Krankheiten, Allergien</li>
+                <li>Rückenbeschwerden</li>
+                <li>der Entwicklung deines Kindes, Mobbing, Krankheit, Verhaltensauffälligkeiten</li>
                 <li>Stress und Erschöpfung</li>
                 <li>Problemen in zwischenmenschlichen Beziehungen</li>
                 <li>Krankmachende Emotionen, Traumatas überwinden, Karma lösen, Vergangenes zu bereinigen</li>
-                <li>deinen lichtvollen Weg zu gehen, deinen Seelenplan wahrzunehmen und zu leben</li>
-                <li>Entscheidungen zu treffen, Konflikte zu lösen, dir die Veränderung zuzutrauen</li>
+                <li>Entscheidungen zu treffen, Konflikte zu lösen, dir die Veränderung zuzutrauen, die Liebe zu finden</li>
                 
               </ul><p>
-              Bist Du bereit, Vergangenes endlich loszulassen und dich deiner Heilung zu öffnen?<br></br><br></br>
+              Bist Du bereit, dir einen neuen Weg zu eröffnen?<br></br><br></br>
 
               Dann vereinbare ein unverbindliches Erstgespräch, damit wir uns kennenlernen können. <br></br><br></br>
 
-             <Link href="/connect"><button className={styles.cta}>Klick hier</button> </Link>
+             <Link href="/connect"><button className={styles.cta}>Hallo Alexandra, bitte melde dich bei mir</button> </Link>
 
              
 
               </p>
-              <h3>Heilung passiert immer in der Stille und in der Anbindung an dein wahres Selbst.</h3>
-
+              <div className='abgehoben'>
+              <h3>Durch Heilarbeit verändern wir uns von Innen heraus. Die eigene Schwingung wird erhöht und du ziehst bessere Ergebnisse in Dein Leben.</h3>
+              </div>
+              
               </div>
 
               </section>

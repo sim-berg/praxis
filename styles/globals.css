@@ -35,18 +35,24 @@ h2{
 }
 
 h3{
-  font-family: Dancing;
-  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  color:#450541;
 
 }
 h4 {
-  font-family: Dancing;
-  font-size: x-large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
 }
 
 h5{
   padding: 2rem;
   font-size: x-large;
+}
+
+.abgehoben{
+
+  background-color: #f9db9b;
 }
 
 .arrow-down {
@@ -80,6 +86,11 @@ h5{
 
   padding-left: 2rem;
   padding-right: 2rem;
+
+}
+.vitadiv {
+
+padding-top: 2rem;
 
 }
 .vitali{
@@ -291,14 +302,21 @@ nav{
     padding-top: 0.5rem;
     align-content: space-between;
     text-decoration: none;
-    color:#000000;
-    font-family: Dancing;
+    color:#450541;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     height: 3rem;
     margin-top: -0.5rem;
     padding-right: 1rem;
   }
-  
+.logounterschrift
+{
+  margin-top: -6.2rem;
+  margin-left: 27rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:large;
+}
+ 
   .logopic{
     display: flex;
     justify-content: space-evenly;
@@ -308,10 +326,10 @@ nav{
     text-decoration: none;
     color:#000000;
     
-    height: 5rem;
-   margin-top: -0.5rem;
+    height: 4rem;
+   
     padding-right: 1rem;
-    width: 5rem;
+    width: 4rem;
   }
 
 
@@ -323,7 +341,7 @@ nav{
     width: 100%;
     background-color: #f7f7f7;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
-    display:flex;
+    
   
 
     position: fixed;

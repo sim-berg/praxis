@@ -3,7 +3,7 @@ import React from 'react'
 
 function vita() {
   return (
-    <div className='vitadiv'><h1>Vita Alexandra Matheis</h1>
+    <div className='vitadiv'>
 
     <div className='fotovitacon'><img className='fotovita' src="./fotovita.jpeg" alt="" srcSet="" /></div>
     

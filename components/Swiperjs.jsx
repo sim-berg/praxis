@@ -23,7 +23,7 @@ export default function Swiperjs() {
       centeredSlidesBounds={true}
     >
       <SwiperSlide>
-        <img src="./flower.jfif" alt="" srcSet="" />
+        <img src="./blume1.jpg" alt="" srcSet="" />
         <div className="text1">
           
           <p>
@@ -44,7 +44,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./stone.jpeg" alt="" srcSet="" />
+        <img src="./himmel.jpg" alt="" srcSet="" />
         <div className="text2">
           
           <p>
@@ -77,7 +77,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./river.jfif" alt="" srcSet="" />
+        <img src="./butterfly.jfif" alt="" srcSet="" />
         <div className="text3">
           
           <p>
@@ -108,7 +108,7 @@ export default function Swiperjs() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./kid.jfif" alt="" srcSet="" />
+        <img src="./Kind.jpg" alt="" srcSet="" />
         <div className="text4">
 
           <br></br>
@@ -135,7 +135,7 @@ export default function Swiperjs() {
       </SwiperSlide>
    
       <SwiperSlide>
-        <img src="./butterfly.jfif" alt="" srcSet="" />
+        <img src="./blume6.jpg" alt="" srcSet="" />
         <div className="text5">
           <h2>Hier gehts zur Vita</h2>
          <Link href='/vita'><button className={styles.cta}>Zur Vita</button></Link> 

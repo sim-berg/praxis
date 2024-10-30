@@ -11,7 +11,7 @@ function Header() {
     <div> 
     <Head>
     <meta charSet="UTF-8" />
-     <link rel="icon" type="image" href="../favicon4.png" />
+     <link rel="icon" type="image" href="../favicon.svg" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Praxis Alexandra Matheis</title>
    </Head>
@@ -20,11 +20,12 @@ function Header() {
    
    <nav>
         <div className="logos">
-          <Link href="/"><img className="logopic" src="/favicon4.png" alt="Logo Image" width="40px" height="40px "/></Link> <Link href="/"><h1 className='logo '>Praxis Alexandra Matheis</h1></Link>
+          <Link href="/"><img className="logopic" src="/logobackground.jpeg" alt="Logo Image" width="36px" height="36px "/></Link> <Link href="/"><div className='logotext'><h1 className='logo'>Praxis Alexandra Matheis</h1><div className='logounterschrift'>Veränderung durch Heilenergie</div></div></Link>
       </div>
         
        
         <ul className={showDropdown ? "nav-links open":"nav-links"}>
+            
             <li className= {showDropdown ? "fade":""} onClick={(showDropdown) =>setShowDropdown(!showDropdown)}><Link  href="/#start" >Praxis</Link></li>
             <li className= {showDropdown ? "fade":""} onClick={(showDropdown) =>setShowDropdown(!showDropdown)}><Link href="/vita">Vita</Link></li>
             <li className= {showDropdown ? "fade":""} onClick={(showDropdown) =>setShowDropdown(!showDropdown)}><Link href="/connect" >Kontakt</Link></li>

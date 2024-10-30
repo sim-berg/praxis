@@ -68,7 +68,7 @@ c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
       </a>
       <h3>oder schreib mir ganz einfach eine E-mail</h3>
       <div data-aos="fade-in" className="contact">
-        <form action="https://formsubmit.co/post@bumperlgsund.de" method="POST">
+        <form action="https://formsubmit.co/matheis.a@web.de" method="POST">
           <input
             placeholder="Dein Name"
             className="name"
@@ -89,7 +89,7 @@ c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
             className="message"
             type="text"
             name="message"
-            placeholder="Schreiben Sie mir doch einfach :)"
+            placeholder="Hallo Alexandra, bitte melde dich bei mir unter der Telefonnummer"
             required
           ></textarea>
 
@@ -101,7 +101,7 @@ c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
           <input
             type="hidden"
             name="_subject"
-            value="Jemand hat dir über -Bumpergesung geschrieben"
+            value="Neuer Patient :)"
           />
           <button className={styles.cobu} type="submit">
             Abschicken
