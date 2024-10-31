@@ -36,9 +36,7 @@ export default function Swiperjs() {
             <br></br>
           </p>
           <h4>
-            Durch Heilarbeit wird die eigene
-            Schwingung erhöht und du ziehst bessere Gegebenheiten in dein
-            Leben. 
+          Geistige Heilarbeit kennt keine zeitlichen und räumlichen Grenzen.
           </h4>
         </div>
       </SwiperSlide>
