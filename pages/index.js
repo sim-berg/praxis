@@ -32,28 +32,31 @@ export default function Home() {
               Durch die Öffnung für die Vermittlung der allgegenwärtigen kosmischen Heilenergie kommst Du wieder mit deiner wahren Natur in Kontakt. <br></br><br></br>
               Nur wenn Körper, Seele und Geist in dieselbe Richtung laufen kann Dein Licht wieder strahlen. <br></br><br></br><br></br>
 
-              Mein Name ist Alexandra und ich zeige Dir, wie Du  Deine blockierten Selbstheilungskräfte befreien kannst, damit Du in Gesundheit, Frieden und Fülle leben kannst. <br></br><br></br><br></br>
+              
               </p>
-            <div className='abgehoben'>
+            {/* <div className='abgehoben'>
               <h3>Geistige Heilarbeit kennt keine zeitlichen und räumlichen Grenzen</h3>
-            </div>
+            </div> */}
+             <h3 className='abgehoben'>Mein Angebot:<br></br>
+            Heilgespräche mit Energieübertragung zur Aktivierung der Selbstheilungskräfte
+            </h3>
             
         </div>
         </section>
         <section className={styles.third}>
           <div className={ styles.hauptseite }>
 
-            <h5>Mein Angebot:<br></br>
-            Heilgespräche mit Energieübertragung zur Aktivierung der Selbstheilungskräfte
-            </h5><br></br>
            
-            
-            <br></br><br></br>
-            <p>Im Gespräch erhältst Du ein klares Bild von Dir und deinem Problem, deiner Herausforderung, deinem Konflikt oder Deiner Krankheit und der damit verbundenen Chance zum Wachstum. <br></br><br></br>
+           
+           <p> <Link href="/connect"><button className={styles.cta}>Klick hier, um mit mir Kontakt aufzunehmen</button> </Link></p>
+           
+            <p>
+            Mein Name ist Alexandra und ich zeige Dir, wie Du  Deine blockierten Selbstheilungskräfte befreien kannst, damit Du in Gesundheit, Frieden und Fülle leben kannst. <br></br><br></br>
+              Im Gespräch erhältst Du ein klares Bild von Dir und deinem Problem, deiner Herausforderung, deinem Konflikt oder Deiner Krankheit und der damit verbundenen Chance zum Wachstum. <br></br><br></br>
               Um deinen Weg zu stärken und die Heilung einzuleiten empfängst du aus der geistigen Welt, die für dich passende Heilenergie.<br></br><br></br>
               Für einen Zeitraum von 1-4 Wochen kann die Neuausrichtung z.B. mit Globulis unterstützt werden.<br></br><br></br>
               Alter Ballast, der dich daran hindern will vorwärts zu gehen wird dabei aufgelöst, so dass dein Weg frei wird. <br></br><br></br>
-              Da über das Quantenfeld alles miteinander verbunden ist, funktioniert Energieübertragung auch auf die Ferne.<br></br><br></br><br></br><br></br></p>
+              Da über das Quantenfeld alles miteinander verbunden ist, funktioniert Energieübertragung auch auf die Ferne.</p>
               </div> </section> <section className={styles.fourth}><div className={ styles.hauptseite2 }>
               <p>Mittels meiner Medialität kann ich dir helfen bei:</p>
               <ul>
@@ -68,7 +71,7 @@ export default function Home() {
               </ul><p>
               Bist Du bereit, dir einen neuen Weg zu eröffnen?<br></br><br></br>
 
-              Dann vereinbare ein unverbindliches Erstgespräch, damit wir uns kennenlernen können. <br></br><br></br>
+              Dann vereinbare ein unverbindliches Erstgespräch, damit wir uns kennenlernen können. <br></br><br></br><br></br>
 
              <Link href="/connect"><button className={styles.cta}>Hallo Alexandra, bitte melde dich bei mir</button> </Link>
 

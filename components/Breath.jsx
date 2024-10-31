@@ -23,19 +23,19 @@ const [loading, setLoading] = useState(1);
   
 
     if(loading== 1){
-       return <div className='breathtext'><h1>Einmal tief einatmen</h1></div>
+       return <div className='breathtext'><h1>Was kann ich dir Gutes tun?</h1></div>
     }
     if(loading==2){
-      return <div className='breathtext'><h1>haaaalten ....</h1></div>
+      return <div className='breathtext'><h1>Was ist deine aktuelle Herausforderung?</h1></div>
    }
    if(loading==3){
-    return <div className='breathtext'><h1>und ausatmen</h1></div>
+    return <div className='breathtext'><h1>Innerhalb einer Stunde erhältst du hier</h1></div>
  }
  if(loading==4){
-   return <div className='breathtext'><h1>Willkommen auf meiner Praxis-Website</h1></div>
+   return <div className='breathtext'><h1>deinen Lösungsansatz und Unterstützung</h1></div>
 }
     return (
-      <div className='breathtext'><h1>Willkommen auf meiner Praxis-Website</h1><h1>Hier gehts los</h1><p className='arrow-down'>&#8659;</p></div>
+      <div className='breathtext'><h1>Herzlich Willkommen</h1><h1>Hier gehts weiter</h1><p className='arrow-down'>&#8659;</p></div>
     );
 };
 

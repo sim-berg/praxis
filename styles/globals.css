@@ -46,15 +46,20 @@ h4 {
 }
 
 h5{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 2rem;
   font-size: x-large;
+  
 }
 
 .abgehoben{
 
   background-color: #f9db9b;
 }
+.abgehoben2{
 
+  background-color: #9fd664;
+}
 .arrow-down {
   font-size: 300%;
   font-weight: 900;
@@ -72,7 +77,7 @@ h5{
 
 
 .breathtext{
-
+  color: #450541;
   text-align: center;
   margin: auto;
 }
@@ -335,7 +340,7 @@ nav{
 
   .Nav{
     
-  
+    display: flex;
     top: 0;
     height: 5rem;
     width: 100%;

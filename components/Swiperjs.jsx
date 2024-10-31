@@ -28,18 +28,17 @@ export default function Swiperjs() {
           
           <p>
             Du hast ein Problem im zwischenmenschlichen Bereich? Der Umgang mit
-            anderen Menschen bildet eine Herausforderung für dich. <br></br>
-            Oft ist ein abgespeichertes Traumata oder Ahnenthema die Ursache,
-            warum uns manche Menschen oder Situationen scheinbar belasten.{" "}
+            anderen Menschen bildet eine Herausforderung für dich? <br></br>
+          
             <br></br>
-            Wir beleuchten das gemeinsame Thema und lösen es auf. <br></br>
+            Wir beleuchten das gemeinsame Thema und lösen das Problem. <br></br>
             Krankmachende Emotionen können dadurch abfließen. <br></br>{" "}
             <br></br>
           </p>
           <h4>
-            Durch Heilarbeit verändern wir uns von innen heraus. Die eigene
-            Schwingung wird erhöht und du ziehst bessere Gegebenheiten in dein
-            Leben. Liebe ist die Antwort
+            Durch Heilarbeit wird die eigene
+            Schwingung erhöht und du ziehst bessere Gegebenheiten in dein
+            Leben. 
           </h4>
         </div>
       </SwiperSlide>
@@ -57,26 +56,19 @@ export default function Swiperjs() {
             <br></br>
             Die Wirbelsäule kann oft innerhalb weniger Minuten wieder
             ausgerichtet werden, so dass Du wieder aufrecht im Leben stehst, wenn wir uns kennen auch telefonisch.
-            <br></br>
-            <br></br>
-            <div className="bold">Kundenfeedback innerhalb weniger Minuten, Stunden nach der
-            Behandlung:</div><br></br> <ul className="kundenfeedback"> <li>Das Kopfweh ist verschwunden, der Druck auf der Brust ist weg.</li>
-            <li>Jetzt hat es grad nochmal gekracht, der Wirbel ist wieder drin.</li>
-            <li>Der Rücken ist jetzt total entspannt.</li>
-            <li>Ich weiß jetzt nicht, wie du das gemacht hast aber die chronische
-            Erkältung ist weg.</li>
-            <li>Mandeln und Polypen müssen nicht operiert werden.</li>
+            
+            
             
             
           
-            </ul>
+            
           </p>
-          <br></br><br></br>
+          <br></br>
           <h4>Sei authentisch und bewahre deine Aufrichtigkeit
             und Haltung</h4>
-        </div>
+         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <img src="./butterfly.jfif" alt="" srcSet="" />
         <div className="text3">
           
@@ -106,7 +98,7 @@ export default function Swiperjs() {
           </p>
           <h4>Mein Körper folgt mir bei jedem Schritt, den ich gehe. </h4>
         </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
       <SwiperSlide>
         <img src="./Kind.jpg" alt="" srcSet="" />
         <div className="text4">
@@ -118,18 +110,17 @@ export default function Swiperjs() {
             gefährden und die sie Symptome entwickeln lassen, die darauf
             hinweisen. <br></br>- Folgen von Impfungen, wie Hautausschläge,
             Erkrankungen der Atemwege, Allergien, Entwickeln von ADHS oder
-            autistische Züge<br></br>- Ahnenthemen, die zu Angst, Wutausbrüchen
-            oder seltsamen Verhaltensweisen führen<br></br>- Eingeschlossene
-            Emotionen, daher unkontrollierte Ausbrüche<br></br>- Ständig
-            wiederkehrende Infekte<br></br>
+            autistische Züge<br></br>- Ängste, Wutausbrüche
+            oder seltsamen Verhaltensweisen führen<br></br>- Akute Erkrankungen,
+            ständig
+            wiederkehrende Infekte<br></br>    <br></br>
             Mit dem Beginn der Konzentration auf die Lösung statt auf das
             Problem schaffen wir ein Heilfeld für Dein Kind, in dem es gesunden
             kann.<br></br>
             <br></br>
           </p>
           <h4>Ein Kind kann nie genug Liebe bekommen.</h4>
-          <br></br>
-          <br></br>
+         
          
         </div>
       </SwiperSlide>

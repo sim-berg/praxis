@@ -8,11 +8,14 @@ function vita() {
     <div className='fotovitacon'><img className='fotovita' src="./fotovita.jpeg" alt="" srcSet="" /></div>
     
     <ul className='vitali'>
-    <li>Dipl. Ing. Chemie (FH), Pharmazeutische Chemie</li>
-    <li>Heilpraktikerin</li>
-    <li>Mutter von 2 erwachsenen Kindern</li>
+    
+    <li>Heilpraktikerin, Heilerin</li>
+    
     <li>Ausbildung in Homöopathie, Pädagogik, Bioenergetisches Austesten, Emotionscode, Heilerin der Neuzeit, Burn-Out-Coach, Channeling</li>
     <li>Hellfühlen, Hellsehen, Hellhören</li>
+    <li>Mutter von 2 erwachsenen Kindern</li>
+    <li>Dipl. Ing. Chemie (FH), Pharmazeutische Chemie</li>
+    
     </ul>
 
     
