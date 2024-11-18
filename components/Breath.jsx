@@ -8,16 +8,16 @@ const [loading, setLoading] = useState(1);
 
       setTimeout(() => {
          setLoading(2)
-      }, 5000)
+      }, 2500)
       setTimeout(() => {
         setLoading(3)
-     }, 10000)
+     }, 5000)
      setTimeout(() => {
       setLoading(4)
-   }, 15000)
+   }, 7500)
    setTimeout(() => {
       setLoading(5)
-   }, 20000)
+   }, 10000)
 
     }, [])
   

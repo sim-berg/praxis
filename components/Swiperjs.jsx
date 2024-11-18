@@ -103,17 +103,17 @@ export default function Swiperjs() {
 
           <br></br>
           <p>
-            Kinder können in diesen Zeiten vielen verschiedenen Belastungen
+            Kinder können in diesen Zeiten Belastungen
             ausgesetzt sein, die Ihre körperliche und seelische Gesundheit
             gefährden und die sie Symptome entwickeln lassen, die darauf
             hinweisen. <br></br>- Folgen von Impfungen, wie Hautausschläge,
             Erkrankungen der Atemwege, Allergien, Entwickeln von ADHS oder
             autistische Züge<br></br>- Ängste, Wutausbrüche
-            oder seltsamen Verhaltensweisen führen<br></br>- Akute Erkrankungen,
+            oder seltsame Verhaltensweisen<br></br>- Akute Erkrankungen,
             ständig
-            wiederkehrende Infekte<br></br>    <br></br>
+            wiederkehrende Infekte<br></br>- Mobbing   <br></br><br></br>
             Mit dem Beginn der Konzentration auf die Lösung statt auf das
-            Problem schaffen wir ein Heilfeld für Dein Kind, in dem es gesunden
+            Problem schaffen wir ein Heilfeld für dein Kind, in dem es gesunden
             kann.<br></br>
             <br></br>
           </p>

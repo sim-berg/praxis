@@ -11,7 +11,7 @@ Alexandra Matheis<br/>
 Fahls 101<br/>
 87435 Durach<br/>
 Tel.: 0831 2055552 <br/>
-e-mail:a.matheis@web.de<br/>
+e-mail:matheis.a@web.de<br/>
 <br/><br/></p>
 
 <h2>Haftungsausschlußerklärung:</h2><br/><br/>
